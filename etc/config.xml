@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <nocontact>
+            <general>
+                <enable>0</enable>
+                <label_checkout><![CDATA[Contactless delivery available]]></label_checkout>
+                <description_checkout><![CDATA[The delivery agent will leave the order on the clean surface in front of your door. ]]></description_checkout>
+                <label_product><![CDATA[Contactless delivery available]]></label_product>
+                <description_product><![CDATA[The delivery agent will leave the order on the clean surface in front of your door. ]]></description_product>
+            </general>
+        </nocontact>
+    </default>
+</config>

@@ -1,0 +1,37 @@
+<div id="no-contact-div">
+    <div data-bind="visible: canVisibleBlock">
+        <div class="payment-option _collaepsible opc-payment-additional discount-code">
+            <div class="payment-option-title field choice" data-role="title">
+
+            </div>
+            <div class="paymcent-option-content" data-role="content">
+                <form class="form form-discount" id="comment-form">
+                    <div class="payment-option-inner">
+                        <div class="field" style="margin-bottom: 10px">
+
+                            <div class="control">
+                                <input type="checkbox" name="is-no-contact" id="is-no-contact"
+                                       data-bind="click: noContactCheck, attr: {id: 'is-no-contact'}">
+
+                                <span for="is-no-contact" class="action action-toggle" id="block-comment-heading" role="heading"
+                                      aria-level="2" data-bind="text: getNoContactLabel(), attr: {for: 'is-no-contact'}">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="field commnet-field" style="display: none">
+                            <label class="label" for="comment-code">
+                                <span data-bind="i18n: 'Enter comment'"></span>
+                            </label>
+                            <div class="control">
+                                <textarea class="input-text" id="comment-code" name="comment-code" rows="2"
+                                          maxlength="200"
+                                          data-bind="attr:{placeholder: getNoContactDescription()} "></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

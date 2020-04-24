@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.main">
+            <block class="Meetanshi\NoContact\Block\View" ifconfig="nocontact/general/enable" name="product.info.nocontact" template="Meetanshi_NoContact::nocontact.phtml">
+            </block>
+        </referenceBlock>
+        <!-- for config products -->
+        <referenceBlock name="product.info.addtocart.additional">
+            <block class="Meetanshi\NoContact\Block\View" ifconfig="nocontact/general/enable" name="product.info.nocontacts" template="Meetanshi_NoContact::nocontact.phtml">
+            </block>
+        </referenceBlock>
+    </body>
+</page>
