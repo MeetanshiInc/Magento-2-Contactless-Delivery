@@ -2,7 +2,7 @@
 
 The COVID-19 disease has taken over the world and compelled everyone to practice social distancing. In such a scenario, it is difficult for the online stores to deliver and that too when it comes to essential items delivery, which cannot be avoided, there needs to be a way out.
 
-Meetanshi has developed [***Magento 2 Contactless Delivery***](https://meetanshi.com/magento-2-contactless-delivery.html) extension that allows the store owners to show a "no contact" or "contactless delivery" availability message on the product page.
+Meetanshi has developed [***Magento 2 Contactless Delivery***](https://meetanshi.com/magento-2-contactless-delivery.html) extension that allows the store owners to show a "no contact" or "contactless delivery" availability message on the product page. And thus, store owners can [**Implement No Contact Delivery for Magento 2 Stores to Avoid COVID-19 Spread**](https://meetanshi.com/blog/no-contact-delivery-for-magento-2/)
 
 The customers can select this option from the checkout page to avail contactless delivery and enter the additional instructions for the order delivery. 
 
